@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Program</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url(BearLodge.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            /* backdrop-filter: blur(5px); */
+
+
+        }
+        #clock-cont{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+
+        }
+        #clock{
+            text-align: center;
+            font-family:monospace;
+            font-size: 6rem;
+            font-weight: bold;
+            backdrop-filter: blur(5px);
+            color: rgb(255, 254, 254);
+            background-color: hsla(0,0%,100%,0.);
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock-cont">
+        <div id="clock">
+            00:00:00
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
